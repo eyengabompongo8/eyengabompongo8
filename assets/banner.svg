@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="160">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040d1a" />
+      <stop offset="50%" stop-color="#0b1d33" />
+      <stop offset="100%" stop-color="#005288" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#7dd3fc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background shape with soft curved bottom -->
+  <path d="M 0,0 L 850,0 L 850,130 C 650,165 400,105 0,145 Z" fill="url(#bgGradient)" />
+
+  <!-- Main Name Text -->
+  <text x="50%" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="url(#textGradient)" letter-spacing="1.5">
+    Eyenga Bompongo
+  </text>
+
+  <!-- Subtitle Tagline -->
+  <text x="50%" y="102" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" fill="#94a3b8" letter-spacing="1">
+    Data Science &amp; Engineering | UPC
+  </text>
+</svg>
